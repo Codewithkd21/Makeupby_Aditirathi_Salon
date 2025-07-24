@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HairImg from '../assets/Hair.png';
-import makeup from '../assets/makeup.png';
-import manicure from '../assets/manicure.png';
-import skincare from '../assets/skincare.png';
-import facial from '../assets/facial.png';
-import serviceImage from '../assets/Services.png';
-import storyImage from '../assets/salon-artist.png';
-import bg1Image from '../assets/rectangle-bg.png';
+import Makeup from '../assets/Makeup.png';
+import Manicure from '../assets/Manicure.png';
+import Skincare from '../assets/Skincare.png';
+import Facial from '../assets/Facial.png';
+import StoryImage from '../assets/Salon-artist.png';
+import Bg1Image from '../assets/Rectangle-bg.png';
 
 // Import all components you want inside Home
 import Services from './Services';
@@ -15,11 +14,11 @@ import OurStory from './OurStory';
 import BookOnline from './Onlinebook';
 
 
-import img1 from '../assets/pic01.png';
-import img2 from '../assets/pic02.png';
-import img3 from '../assets/pic03.png';
-import img4 from '../assets/pic04.png';
-import bgImage from '../assets/rectangle12.png'; 
+import Img1 from '../assets/Pic01.png';
+import Img2 from '../assets/Pic02.png';
+import Img3 from '../assets/Pic03.png';
+import Img4 from '../assets/Pic04.png';
+import BgImage from '../assets/Rectangle12.png'; 
 
 const Home = () => {
   return (
@@ -73,10 +72,10 @@ const Home = () => {
 
   <div className="flex flex-wrap justify-center gap-16 md:gap-32 mb-20 px-6">
     <img src={HairImg} alt="Hair" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
-    <img src={makeup} alt="Makeup" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
-    <img src={manicure} alt="Manicure" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
-    <img src={skincare} alt="Skincare" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
-    <img src={facial} alt="Facial" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
+    <img src={Makeup} alt="Makeup" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
+    <img src={Manicure} alt="Manicure" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
+    <img src={Skincare} alt="Skincare" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
+    <img src={Facial} alt="Facial" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
   </div>
 
   <p className="text-center text-[#4a2c23] text-lg px-6 max-w-3xl mx-auto mb-12">
@@ -94,7 +93,7 @@ const Home = () => {
 
      <section
         className="w-full relative overflow-hidden bg-cover bg-center"
-        style={{ backgroundImage: `url(${bg1Image})` }}
+        style={{ backgroundImage: `url(${Bg1Image})` }}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-20 flex flex-col md:flex-row items-center gap-12">
           
@@ -102,7 +101,7 @@ const Home = () => {
           <div className="relative flex-1 w-full">
             <div className="absolute top-0 left-0 w-full h-full bg-pink-100/50 rounded-lg -rotate-2"></div>
             <img
-              src={storyImage}
+              src={StoryImage}
               alt="Our Story"
               className="relative z-10 w-full rounded-lg shadow-xl"
             />
@@ -137,7 +136,7 @@ const Home = () => {
 
   <section
       className="w-full py-20 px-4 bg-cover bg-center relative"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      style={{ backgroundImage: `url(${BgImage})` }}
     >
       {/* Frame Container */}
       <div className="max-w-6xl mx-auto bg-white/10 backdrop-blur-xl rounded-3xl p-6 sm:p-10 shadow-lg border border-white/30">
@@ -147,10 +146,10 @@ const Home = () => {
 
         {/* Grid Images inside Frame */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <img src={img1} alt="Insta 1" className="w-full h-48 object-cover rounded-xl" />
-          <img src={img2} alt="Insta 2" className="w-full h-48 object-cover rounded-xl" />
-          <img src={img3} alt="Insta 3" className="w-full h-48 object-cover rounded-xl" />
-          <img src={img4} alt="Insta 4" className="w-full h-48 object-cover rounded-xl" />
+          <img src={Img1} alt="Insta 1" className="w-full h-48 object-cover rounded-xl" />
+          <img src={Img2} alt="Insta 2" className="w-full h-48 object-cover rounded-xl" />
+          <img src={Img3} alt="Insta 3" className="w-full h-48 object-cover rounded-xl" />
+          <img src={Img4} alt="Insta 4" className="w-full h-48 object-cover rounded-xl" />
         </div>
 
         {/* Instagram Link Button */}

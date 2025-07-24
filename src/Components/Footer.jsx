@@ -1,11 +1,11 @@
 import React from 'react';
-import mobileIcon from '../assets/Mobile.png';
-import clockIcon from '../assets/clock.png';
-import locationIcon from '../assets/location.png';
-import ellipse from '../assets/Ellipse.png';
-import textLogo from '../assets/Group.png'; // your curve text
-import fbIcon from '../assets/Fb.png';
-import instaIcon from '../assets/Insta.png';
+import MobileIcon from '../assets/Mobile.png';
+import ClockIcon from '../assets/Clock.png';
+import LocationIcon from '../assets/Location.png';
+import Ellipse from '../assets/Ellipse.png';
+import TextLogo from '../assets/Group.png'; // your curve text
+import FbIcon from '../assets/Fb.png';
+import InstaIcon from '../assets/Insta.png';
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
 
         {/* CONTACT */}
         <div className="flex flex-col items-center">
-          <img src={mobileIcon} alt="Contact" className="w-12 mb-4" />
+          <img src={MobileIcon} alt="Contact" className="w-12 mb-4" />
           <h3 className="font-bold tracking-widest mb-2">CONTACT</h3>
           <p>Ph:+91 7900227237 </p>
           <p>insta : makeupby_aditirathi</p>
@@ -22,7 +22,7 @@ const Footer = () => {
 
         {/* HOURS */}
         <div className="flex flex-col items-center">
-          <img src={clockIcon} alt="Hours" className="w-12 mb-4" />
+          <img src={ClockIcon} alt="Hours" className="w-12 mb-4" />
           <h3 className="font-bold tracking-widest mb-2">HOURS</h3>
           <p>Mon to Fri: 7:30 am — 8:00 pm</p>
           <p>Sat: 9:00 am — 8:00 pm</p>
@@ -31,7 +31,7 @@ const Footer = () => {
 
         {/* LOCATION */}
         <div className="flex flex-col items-center">
-          <img src={locationIcon} alt="Location" className="w-12 mb-4" />
+          <img src={LocationIcon} alt="Location" className="w-12 mb-4" />
           <h3 className="font-bold tracking-widest mb-2">LOCATION</h3>
           <p>Uday City Pallavpuram phase 2 ,</p>
           <p>Meerut,Up </p>
@@ -46,8 +46,8 @@ const Footer = () => {
           {/* LOGO SECTION */}
           <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
             <div className="relative">
-              <img src={ellipse} alt="Ellipse" className="w-28" />
-              <img src={textLogo} alt="We Don't Keep" className="absolute top-0 left-0 w-28" />
+              <img src={Ellipse} alt="Ellipse" className="w-28" />
+              <img src={TextLogo} alt="We Don't Keep" className="absolute top-0 left-0 w-28" />
               <div className="absolute top-8 left-6 font-bold">SALON</div>
             </div>
           </div>
@@ -58,8 +58,8 @@ const Footer = () => {
             <h4 className="font-bold mb-2">Contact Us</h4>
             <p className="mb-4">Don't miss promotions, follow us for the latest news</p>
             <div className="flex justify-center md:justify-end gap-4">
-              <img src={fbIcon} alt="Facebook" className="w-6 cursor-pointer hover:scale-110 transition" />
-              <img src={instaIcon} alt="Instagram" className="w-6 cursor-pointer hover:scale-110 transition" />
+              <img src={FbIcon} alt="Facebook" className="w-6 cursor-pointer hover:scale-110 transition" />
+              <img src={InstaIcon} alt="Instagram" className="w-6 cursor-pointer hover:scale-110 transition" />
             </div>
           </div>
 

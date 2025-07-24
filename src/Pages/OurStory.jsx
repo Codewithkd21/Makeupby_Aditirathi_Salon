@@ -1,8 +1,8 @@
 import React from 'react';
-import storyImage from '../assets/salon-artist.png';
-import bgImage from '../assets/rectangle-bg.png';
-import perfume from '../assets/perfume-pic.png';
-import productsImage from '../assets/products-pic.png';
+import StoryImage from '../assets/Salon-artist.png';
+import BgImage from '../assets/Rectangle-bg.png';
+import Perfume from '../assets/Perfume-pic.png';
+import ProductsImage from '../assets/Products-pic.png';
 const OurStory = () => {
   return (
     <>
@@ -22,7 +22,7 @@ const OurStory = () => {
           {/* Image Section */}
           <div className="flex justify-center md:justify-end">
             <img
-              src={perfume}
+              src={Perfume}
               alt="Perfume Bottle"
               className="w-[300px] md:w-[400px] object-contain drop-shadow-xl"
             />
@@ -33,7 +33,7 @@ const OurStory = () => {
       {/* Bottom Section - Full Story with BG Image */}
       <section
         className="w-full relative overflow-hidden bg-cover bg-center"
-        style={{ backgroundImage: `url(${bgImage})` }}
+        style={{ backgroundImage: `url(${BgImage})` }}
       >
         <div className="max-w-7xl mx-auto px-6 md:px-8 py-20 flex flex-col md:flex-row items-center gap-12">
           
@@ -41,7 +41,7 @@ const OurStory = () => {
           <div className="relative flex-1 w-full">
             <div className="absolute top-0 left-0 w-full h-full bg-pink-100/50 rounded-lg -rotate-2"></div>
             <img
-              src={storyImage}
+              src={StoryImage}
               alt="Our Story"
               className="relative z-10 w-full rounded-lg shadow-xl"
             />
@@ -90,7 +90,7 @@ const OurStory = () => {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end">
           <img
-            src={productsImage}
+            src={ProductsImage}
             alt="Cosmetic Products"
             className="max-w-[450px] w-full object-contain"
           />

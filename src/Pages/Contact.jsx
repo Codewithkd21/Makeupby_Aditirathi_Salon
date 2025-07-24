@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PhotoRoom from '../assets/PhotoRoom.png';
-import perfume from '../assets/perfume.png';
-import perfumepic from '../assets/perfumepic.png';
+import Perfume from '../assets/Perfume.png';
+import Perfumepic from '../assets/Perfumepic.png';
 import HeartIcon from '../assets/Heart-icon.png';
 
 const Contact = () => {
@@ -62,7 +62,7 @@ const Contact = () => {
             {/* Left Image */}
             <div className="flex justify-center">
               <img
-                src={perfume}
+                src={Perfume}
                 alt="Perfume"
                 className="w-full max-w-[500px] shadow-2xl rounded-md object-contain"
               />
@@ -145,7 +145,7 @@ const Contact = () => {
             </div>
             <div className="flex justify-center md:justify-end">
               <img
-                src={perfumepic}
+                src={Perfumepic}
                 alt="Perfume"
                 className="w-full max-w-md h-auto object-cover shadow-md rounded-md mb-2"
               />
