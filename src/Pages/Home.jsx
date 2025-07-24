@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import hair from '../assets/Hair.png';
+import HairImg from "../assets/Hair.png";
 import makeup from '../assets/makeup.png';
 import manicure from '../assets/manicure.png';
 import skincare from '../assets/skincare.png';
@@ -72,7 +72,7 @@ const Home = () => {
   <h2 className="text-4xl font-bold text-center mb-20 text-[#4a2c23]">Service Menu</h2>
 
   <div className="flex flex-wrap justify-center gap-16 md:gap-32 mb-20 px-6">
-    <img src={hair} alt="Hair" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
+    <img src={HairImg} alt="Hair" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
     <img src={makeup} alt="Makeup" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
     <img src={manicure} alt="Manicure" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
     <img src={skincare} alt="Skincare" className="h-28 md:h-32 hover:scale-110 transition duration-300" />
