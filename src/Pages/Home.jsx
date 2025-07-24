@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import hair from '../assets/hair.png';
+import hair from '../assets/Hair.png';
 import makeup from '../assets/makeup.png';
 import manicure from '../assets/manicure.png';
 import skincare from '../assets/skincare.png';
