@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import HairImg from "../assets/Hair.png";
+import HairImg from '../assets/Hair.png';
 import makeup from '../assets/makeup.png';
 import manicure from '../assets/manicure.png';
 import skincare from '../assets/skincare.png';
