@@ -1,5 +1,5 @@
 import React from 'react';
-import mobileIcon from '../assets/mobile.png';
+import mobileIcon from '../assets/Mobile.png';
 import clockIcon from '../assets/clock.png';
 import locationIcon from '../assets/location.png';
 import ellipse from '../assets/Ellipse.png';
