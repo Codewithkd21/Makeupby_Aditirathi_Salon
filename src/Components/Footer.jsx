@@ -1,7 +1,7 @@
 import React from 'react';
 import Mobile from '../assets/Mobile.png';
 import ClockIcon from '../assets/Clock.png';
-import LocationIcon from '../assets/Location.png';
+import Location from '../assets/Location.png';
 import Ellipse from '../assets/Ellipse.png';
 import TextLogo from '../assets/Group.png';
 import FbIcon from '../assets/Fb.png';
@@ -31,7 +31,7 @@ const Footer = () => {
 
         {/* LOCATION */}
         <div className="flex flex-col items-center">
-          <img src={LocationIcon} alt="Location" className="w-12 mb-4" />
+          <img src={Location} alt="Location" className="w-12 mb-4" />
           <h3 className="font-bold tracking-widest mb-2">LOCATION</h3>
           <p>Uday City Pallavpuram phase 2 ,</p>
           <p>Meerut,Up </p>
