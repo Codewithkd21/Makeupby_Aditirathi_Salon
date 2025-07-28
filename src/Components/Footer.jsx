@@ -1,5 +1,5 @@
 import React from 'react';
-import MobileIcon from '../assets/Mobile.png';
+import Mobile from '../assets/Mobile.png';
 import ClockIcon from '../assets/Clock.png';
 import LocationIcon from '../assets/Location.png';
 import Ellipse from '../assets/Ellipse.png';
@@ -14,7 +14,7 @@ const Footer = () => {
 
         {/* CONTACT */}
         <div className="flex flex-col items-center">
-          <img src={MobileIcon} alt="Contact" className="w-12 mb-4" />
+          <img src={Mobile} alt="Contact" className="w-12 mb-4" />
           <h3 className="font-bold tracking-widest mb-2">CONTACT</h3>
           <p>Ph:+91 7900227237 </p>
           <p>insta : makeupby_aditirathi</p>
