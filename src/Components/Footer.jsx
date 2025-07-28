@@ -3,7 +3,7 @@ import MobileIcon from '../assets/Mobile.png';
 import ClockIcon from '../assets/Clock.png';
 import LocationIcon from '../assets/Location.png';
 import Ellipse from '../assets/Ellipse.png';
-import TextLogo from '../assets/Group.png'; // your curve text
+import TextLogo from '../assets/Group.png';
 import FbIcon from '../assets/Fb.png';
 import InstaIcon from '../assets/Insta.png';
 
